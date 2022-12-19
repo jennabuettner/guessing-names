@@ -1,0 +1,82 @@
+* {
+    font-family: 'PT Serif', serif;
+}
+
+html {
+    background-image: url("/assets/images/collage.png");
+    background-color: #cccccc;
+}
+
+.game-card, .win-loss-counter, .card {
+    background-color: rgba(254, 253, 253, 0.886);
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.title {
+    background-color: rgba(254, 253, 253, 0.824);
+    text-align: center;
+    font-size: 40px;
+    margin: -10px;
+    padding: 30px;
+}
+
+.instructions {
+    font-size: 1rem;
+}
+
+.start-button, .reset-button {
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.934);
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+}
+
+.start-button {
+    margin: 30px auto;
+    font-size: 1.5rem;
+}
+
+.game-card {
+    padding: 80px;
+    max-width: 60%;
+    margin: auto;
+}
+
+.start-word {
+    font-size: 40px;
+}
+
+.counter-and-timer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.win-loss-counter {
+    font-size: 15px;
+    text-align: left;
+    padding: 20px;
+}
+
+.results-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    font-size: 20px;
+}
+
+.timer-text {
+    padding: 30px;
+}
+
+.timer-count {
+    font-size: 40px;
+}
