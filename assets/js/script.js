@@ -27,6 +27,7 @@ function init() {
 
 // called when start button is clicked
 function startGame() {
+    prompt()
     isWin = false;
     timerCount = 10;
     startButton.disabled = true;
