@@ -7,17 +7,16 @@ html {
     background-color: #cccccc;
 }
 
-.game-card, .win-loss-counter, .card {
-    background-color: rgba(254, 253, 253, 0.886);
+.game-card, .win-loss-counter, .timer-card {
+    background-color: rgba(254, 253, 253, 0.922);
     text-align: center;
     margin: 20px;
-    font-size: 40px;
     padding: 10px;
     border-radius: 20px;
 }
 
 .title {
-    background-color: rgba(254, 253, 253, 0.824);
+    background-color: rgba(254, 253, 253, 0.922);
     text-align: center;
     font-size: 40px;
     margin: -10px;
@@ -43,12 +42,9 @@ html {
 
 .game-card {
     padding: 80px;
-    max-width: 60%;
+    width: 50%;
     margin: auto;
-}
-
-.start-word {
-    font-size: 40px;
+    font-size: 3.5rem;
 }
 
 .counter-and-timer {
@@ -62,6 +58,7 @@ html {
     font-size: 15px;
     text-align: left;
     padding: 20px;
+    text-align: center;
 }
 
 .results-card {
@@ -79,4 +76,58 @@ html {
 
 .timer-count {
     font-size: 40px;
+}
+
+@media only screen and (max-width: 400px) {
+    html {
+        margin: auto;
+        max-width: 100vw;
+    }
+
+    body {
+        max-width: 100vw;
+        margin: auto;
+        overflow-x: hidden;
+    }
+
+    .title {
+        font-size: 30px;
+        padding: 20px;
+        padding-top: 30px;
+    }
+
+    .instructions {
+        font-size: 15px;
+    }
+
+    .game-card {
+        font-size: 25px;
+    }
+
+    .results-card, .timer-card {
+        font-size: 15px;
+        margin: auto;
+        height: 25%;
+    }
+
+    .results-card {
+        margin-left: -19px;
+    }
+
+    .counter-and-timer {
+        justify-content: space-evenly;
+        margin: 10px;
+    }
+
+    .timer-text, .win-loss-counter h2 {
+        font-size: 15px;
+    }
+
+    .timer-text {
+        padding: 12px;
+    }
+
+    .timer-count {
+        font-size: 30px
+    }
 }
