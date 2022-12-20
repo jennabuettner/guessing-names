@@ -27,12 +27,12 @@ function init() {
 
 // called when start button is clicked
 function startGame() {
-    startButton.addEventListener("click", prompt())
     isWin = false;
     timerCount = 10;
     startButton.disabled = true;
     renderBlanks();
     startTimer();
+    startButton.addEventListener("click", prompt())
 }
 
 // called when game is won
