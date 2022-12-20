@@ -160,6 +160,12 @@ document.addEventListener("keydown", function(event) {
     }
 });
 
+// function restartTimer() {
+//     if (timerCount === 0) {
+//     clearInterval(timer)
+//     }
+// }
+
 startButton.addEventListener("click", startGame);
 
 init();
