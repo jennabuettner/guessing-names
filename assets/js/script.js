@@ -32,7 +32,7 @@ function startGame() {
     startButton.disabled = true;
     renderBlanks();
     startTimer();
-    startButton.addEventListener("click", prompt())
+    // startButton.addEventListener("click", prompt())
 }
 
 // called when game is won
