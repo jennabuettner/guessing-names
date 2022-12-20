@@ -3,7 +3,7 @@
 }
 
 html {
-    background-image: url("/assets/images/collage.png");
+    background-image: url("/images/collage.png");
     background-color: #cccccc;
 }
 
@@ -82,7 +82,7 @@ html {
     html {
         margin: auto;
         max-width: 100vw;
-        background-image: url("/assets/images/collage.png");
+        background-image: url("/images/collage.png");
         background-color: #cccccc;
         background-size: contain;
         background-repeat: repeat-y;
